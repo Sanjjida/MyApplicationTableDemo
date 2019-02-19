@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context=".MainActivity">
+
+
+    <TableRow android:id="@+id/titleRowId"
+        android:layout_marginTop="20dp">
+
+        <TextView
+
+            android:layout_gravity="center_horizontal"
+            android:layout_span="4"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Student Details"
+
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/HeaderId"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="FirstName"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="LastName"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="CGPA"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="DOB"
+            android:layout_height="20dp"
+
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/Row1Id"
+
+        >
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="101"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="Anika"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="3.9"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="12-2-90"
+            android:layout_height="20dp"
+
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/Row2Id"
+
+        >
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="102"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="Nafisa"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="3.0"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="13-2-90"
+            android:layout_height="20dp"
+
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/Row3Id"
+
+        >
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="103"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="Rsmisa"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="3.5"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+
+            android:paddingRight="10dp"
+            android:textSize="16sp"
+            android:text="14-2-90"
+            android:layout_height="20dp"
+
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/ButtonId"
+        >
+        <Button
+            android:layout_column="2"
+            android:text="Submit"
+            android:textSize="16sp"
+            />
+        <Button
+            android:layout_column="3"
+            android:text="Clear"
+            android:textSize="16sp"
+            />
+
+
+    </TableRow>
+</TableLayout>
